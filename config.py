@@ -3,7 +3,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7367598240:AAE9L3U9KJFEYBlx1Rk39YVlJwX4DXifdpY")
 
 #Your API ID & API HASH from my.telegram.org [https://youtu.be/gZQJ-yTMkEo?si=H4NlUUgjsIc5btzH]
 #Your API ID from my.telegram.org
@@ -30,7 +30,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Master")
 # check my discription to help by using my refer link of shareus.io
 # 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "udlinks.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "cace96143121b04c7d6d31da0b0a37d5aaefc5c2")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
