@@ -55,15 +55,12 @@ class Bot(Client):
             self.LOGGER(__name__).warning(f"Error occurred: {e}")
             self.LOGGER(__name__).warning(f"CHANNEL_ID: {CHANNEL_ID}, DB Channel ID: {db_channel.id if 'db_channel' in locals() else 'N/A'}")
             self.LOGGER(__name__).warning(f"Make sure bot is Admin in DB Channel, and Double-check the CHANNEL_ID value.")
-            self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/ultroid_official for support")
+            self.LOGGER(__name__).info("\nBot Stopped.  Loude Error Fix Kr")
             sys.exit()
 
         self.set_parse_mode(ParseMode.HTML)
-        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/ultroid_official")
-        self.LOGGER(__name__).info(f""" \n\n       
-(っ◔◡◔)っ ♥ ULTROIDOFFICIAL ♥
-░╚════╝░░╚════╝░╚═════╝░╚══════╝
-                                          """)
+        self.LOGGER(__name__).info(f"Bot Running..!\n\nThanks To \nLeaksXowner")
+        self.LOGGER(__name__).info(f""" \n\n  Cheetah Hi Kehde""")
         self.username = usr_bot_me.username
         #web-response
         app = web.AppRunner(await web_server())
